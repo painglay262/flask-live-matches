@@ -1,0 +1,4 @@
+echo "__pycache__/\n*.pyc\n*.pyo\n*.pyd\nvenv/\nenv/\n.venv/\npip-log.txt\npip-delete-this-directory.txt\n.vscode/\n.idea/\n*.iml\n.DS_Store\nThumbs.db\n*.log\ninstance/\n*.pid\n*.sock" > .gitignore
+git add .gitignore
+git commit -m "Added .gitignore file"
+git push origin main
